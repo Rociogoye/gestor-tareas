@@ -1,0 +1,27 @@
+{
+  "name": "gestor-de-tareas",
+  "version": "1.0.0",
+  "description": "Gestor de tasques amb funcions avançades",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "tasques",
+    "gestor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rociogoye/gestor-tareas.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rociogoye/gestor-tareas/issues"
+  },
+  "homepage": "https://github.com/Rociogoye/gestor-tareas#readme"
+}

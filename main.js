@@ -1,6 +1,7 @@
 /**
  * Arrays per guardar les tasques i els seus estats
  */
+const prompt = require('prompt-sync')();
 const tasques = ["tasca1", "tasca2","tasca3"];
 const completades = [false,false,false];
 
@@ -9,15 +10,15 @@ const completades = [false,false,false];
  * @returns {number} Número de l'opció triad pel usuari
  */
 function mostrarMenu(){
-    return Number(prompt(`
-        1. Afegir tasca
-        2. Mostrar tasques
-        3. Marcar completada
-        4. Eliminar tasca
-        5. Estadístiques
-        6. Mostrar tascas pendents
-        7. Sortir
-    `));
+    console.log(`\n==== Menú de Tasques ====`);
+    console.log(`1. Afegir tasca`);
+    console.log(`2. Mostrar tasques`);
+    console.log(`3. Marcar completada`);
+    console.log(`4. Eliminar tasca`);
+    console.log(`5. Estadístiques`);
+    console.log(`6. Mostrar tascas pendents`);
+    console.log(`7. Sortir`);
+    return Number(prompt(`Elija una opción: `));
 }
 
 /**
